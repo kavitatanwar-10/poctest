@@ -1,0 +1,176 @@
+﻿<repository
+id="7216e708-0d0b-48c8-892b-6b484960e46c"
+name="MyTestRepository">
+	<codegen
+	classname="MyTestRepository"
+	namespace="MyTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="2aeebb93-73bd-4785-9653-d4711c1c4a19"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="3d222afe-3a33-477a-9df3-df2edc2c4aec"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="74c79571-c5b5-4384-b3d3-4c7b6e5f94cf"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="1e646de0-b504-42bd-9d9a-586454a5b791"
+			name="ApEmail"
+			refimgid="a200d06f-1625-4826-96ce-238e2369bb3e"
+			refpath="/dom[@domain='www.amazon.in']//input[#'ap_email']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.amazon.in']//input[#'ap_email']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="fd581e22-862c-400c-be0a-81ef17b937bb"
+			name="Continue"
+			refimgid="72464f7d-46f3-457c-8cf8-7f4305b61a52"
+			refpath="/dom[@domain='www.amazon.in']//span[#'continue']/span/input[@id='continue']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.amazon.in']//span[#'continue']/?/?/input[@id='continue']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="1134519a-5d67-4247-b688-e16fc0283344"
+			name="SignInSubmit"
+			refimgid="6142a83f-1bfd-45fd-ba65-b9bf78faaf40"
+			refpath="/dom[@domain='www.amazon.in']//input[#'signInSubmit']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.amazon.in']//input[#'signInSubmit']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="833e2b63-9604-4edd-8c19-21d856f1155a"
+			name="AAlertContainerABoxInner"
+			refimgid="0ccfb4e9-abd4-4b67-8faf-f25095a155a9"
+			refpath="/dom[@domain='www.amazon.in']//div[#'auth-error-message-box']/div"
+			searchtimeout="30000ms">
+				/dom[@domain='www.amazon.in']//div[#'auth-error-message-box']/div
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="73505b8c-17a0-41d9-8ef9-aa83ae5ec4b5"
+			name="ApPassword"
+			refimgid="3a7f023b-049a-466d-9648-45e0dd4fd965"
+			refpath="/dom[@domain='www.amazon.in']//input[#'ap_password']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.amazon.in']//input[#'ap_password']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="cdbe53c1-b7ab-4689-b256-7090727b7ab3"
+			name="Twotabsearchtextbox"
+			refimgid="446d5777-0c41-4038-ae55-3b44f683c1eb"
+			refpath="/dom[@domain='www.amazon.in']//input[#'twotabsearchtextbox']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.amazon.in']//input[#'twotabsearchtextbox']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="985e4747-43fd-4c76-a194-08518ca9ee50"
+			name="Kurta"
+			refimgid="e952b761-60f4-43d6-8f03-a0b0127c0e23"
+			refpath="/dom[@domain='www.amazon.in']//div[#'suggestions']/div[11]"
+			searchtimeout="30000ms">
+				/dom[@domain='www.amazon.in']//div[#'suggestions']/div[11]
+			</item>
+			<basepath>
+				/dom[@domain='www.amazon.in']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="657363ab-15e2-480e-b3bc-12236e49e9b4"
+		isrooted="True"
+		name="HowToWriteCodeInCHashRanorexGoo"
+		refpath="/form[@title='how to write code in c# ranorex - Google Search - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="0e69c50c-6fcd-47eb-a832-8700ad5a05f5"
+			name="NewTab"
+			refimgid="5f7d54e0-98f1-4755-8631-bbb267f7ef12"
+			refpath="/form[@title>'how to write code in c# ranorex']/container/container/container[2]/container[1]/container[1]/tabpagelist/button[@accessiblename='New Tab']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'how to write code in c# ranorex']/container[@accessiblename&gt;'how to write code in c# ranorex']/container[@accessiblename='Google Chrome']/container[2]/container[1]//button[@accessiblename='New Tab']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="6499289a-a843-4ac9-b2b6-facf7f6416aa"
+			name="AddressAndSearchBar"
+			refimgid="060e77b9-399b-454b-b2cc-d3a93b793482"
+			refpath="/form[@title='New Tab - Google Chrome']/container/container/container[2]/container[1]/container[2]/container[@accessiblerole='Grouping']/text[@accessiblename='Address and search bar']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'how to write code in c# ranorex']/container[@accessiblename='New Tab - Google Chrome']/container[@accessiblename='Google Chrome']//container[@accessiblerole='Grouping']/text[@accessiblename='Address and search bar']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="f96f4bca-cdfa-49fe-a18e-2ea8ab9983fb"
+			name="Pane"
+			refimgid="469136b2-c54f-4473-88bc-aaa5fd06209b"
+			refpath="/form[@title>'Online Shopping site in India:']/container/container/container/container/list/listitem/container"
+			searchtimeout="30000ms">
+				/form[@title&gt;'how to write code in c# ranorex']/container[@accessiblename&gt;'Online Shopping site in India:']/container//list/?/?/container
+			</item>
+			<basepath>
+				/form[@title&gt;'how to write code in c# ranorex']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
