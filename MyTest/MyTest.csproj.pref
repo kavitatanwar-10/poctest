@@ -1,0 +1,18 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Recording1.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Recording2.rxrec" />
+    <Element value="MyTest.rxtst" />
+    <Element value="MyTestRepository.rxrep" />
+    <Element value="Recording1.UserCode.cs" />
+    <Element value="Recording1.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections">
+      <Element value="MyTest.Recording1.Key_sequence_AddressAndSearchBar(RepoItemInfo textInfo)" />
+    </Array>
+  </Properties>
+</Properties>
