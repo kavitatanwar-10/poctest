@@ -1,0 +1,78 @@
+﻿<repository
+id="5be4c5e0-0ab1-436b-b18c-d91450d06e4c"
+name="poctestRepository">
+	<codegen
+	classname="poctestRepository"
+	namespace="poctest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="eb8235e8-0290-4ca7-b360-4472f1905b1b"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="4f5e1439-fde2-4ead-9441-3d2fb6be71b8"
+		isrooted="True"
+		name="AmazonComOnlineShoppingForElectron"
+		refpath="/dom[@domain='www.amazon.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="505c7524-dce6-4add-9da2-5775dd0e1e0a"
+			name="SignIn"
+			refimgid="190f93b5-7352-4ade-a5e2-476cd4bed694"
+			refpath="/dom[@domain='www.amazon.com']//div[#'nav-flyout-ya-signin']/a/span[@innertext='Sign in']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.amazon.com']//div[#'nav-flyout-ya-signin']/?/?/span[@innertext='Sign in']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="864ec229-0216-496c-ad2d-05c92de98d0b"
+			name="StartHere"
+			refimgid="42b079c2-9a61-4c60-8dd3-19fd4db45180"
+			refpath="/dom[@domain='www.amazon.com']//div[#'nav-flyout-ya-newCust']/a[@innertext='Start here.']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.amazon.com']//div[#'nav-flyout-ya-newCust']/a[@innertext='Start here.']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="25078f2d-277a-42a3-97ec-3a8005797d18"
+			name="Continue"
+			refimgid="0fecdf9a-76c9-4cb4-b7fd-ab83708bb388"
+			refpath="/dom[@domain='www.amazon.com']//span[#'continue']/span/input[@id='continue']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.amazon.com']//span[#'continue']/?/?/input[@id='continue']
+			</item>
+			<basepath>
+				/dom[@domain='www.amazon.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
