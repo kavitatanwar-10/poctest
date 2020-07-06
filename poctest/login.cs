@@ -96,6 +96,9 @@ namespace poctest
             repo.AmazonComOnlineShoppingForElectron.Continue.Click("152;11");
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(4));
+            Delay.Duration(300, false);
+            
         }
 
 #region Image Feature Data

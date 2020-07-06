@@ -571,6 +571,15 @@ maWigBNo9/zNG0e/5mlooATaPf8AM0bR7/maWigBNo9/zNG0e/5mlooATaPf8zRtHv8AmaWigBNo
 Pf8AM0bR7/maWigBNoz/APXpaKKAP//Z
 			</helperscreenshot>
 		</mouseitem>
+		<explicitdelayitem
+		duration="300ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="5be4c5e0-0ab1-436b-b18c-d91450d06e4c"

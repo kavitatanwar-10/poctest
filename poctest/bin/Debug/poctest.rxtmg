@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="poctest"
+      id="6e25e5d4-ad61-4052-88f7-33683677c10d"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="poctest"
+      id="6e25e5d4-ad61-4052-88f7-33683677c10d"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

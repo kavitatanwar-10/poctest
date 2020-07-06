@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="20.97s"
+		durationms="20970"
+		type="root"
+		rid="47bb208984d5863"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-U050M5D"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="7/6/2020 11:32:42 PM"
+		timestampiso="2020-07-06T18:02:42"
+		endtime="7/6/2020 11:33:03 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="login">
+		<detail>
+			login
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.106"
+			timeRelativeToTestModuleStartTime="00:08.106"
+			timeWallClock="23:32:50"
+			time="00:08.106"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://www.amazon.com' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\poctest\poctest\login.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.320"
+			timeRelativeToTestModuleStartTime="00:08.320"
+			timeWallClock="23:32:50"
+			time="00:08.320"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'AmazonComOnlineShoppingForElectron.SignIn' at 161;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.amazon.com']//div[#'nav-flyout-ya-signin']/?/?/span[@innertext='Sign in']"
+				itempath=".//div[#'nav-flyout-ya-signin']/?/?/span[@innertext='Sign in']"
+				fullname="poctestRepository.AmazonComOnlineShoppingForElectron.SignIn"
+				id="505c7524dce64add9da25775dd0e1e0a"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\poctest\poctest\login.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.400"
+			timeRelativeToTestModuleStartTime="00:20.400"
+			timeWallClock="23:33:02"
+			time="00:20.400"
+			level="Warn"
+			category="MoveTo">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\poctest\poctest\login.cs"
+				codeline="87"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

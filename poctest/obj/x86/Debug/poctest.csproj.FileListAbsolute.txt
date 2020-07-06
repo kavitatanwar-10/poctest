@@ -1,0 +1,10 @@
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\poctest\poctest\bin\Debug\poctest.rxtmg
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\poctest\poctest\bin\Debug\poctest.rxtst
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\poctest\poctest\bin\Debug\poctest.exe.config
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\poctest\poctest\bin\Debug\poctest.xml
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\poctest\poctest\bin\Debug\poctest.exe
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\poctest\poctest\bin\Debug\poctest.pdb
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\poctest\poctest\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\poctest\poctest\obj\x86\Debug\poctest.csprojResolveAssemblyReference.cache
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\poctest\poctest\obj\x86\Debug\poctest.exe
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\poctest\poctest\obj\x86\Debug\poctest.pdb

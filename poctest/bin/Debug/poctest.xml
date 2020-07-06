@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>poctest</name>
+    </assembly>
+    <members>
+        <member name="T:poctest.login">
+             <summary>
+            The login recording.
+             </summary>
+        </member>
+        <member name="F:poctest.login.repo">
+            <summary>
+            Holds an instance of the poctestRepository repository.
+            </summary>
+        </member>
+        <member name="M:poctest.login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:poctest.login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:poctest.login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:poctest.login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:poctest.login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:poctest.login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:poctest.poctestRepository">
+            <summary>
+            The class representing the poctestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:poctest.poctestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:poctest.poctestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the poctestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:poctest.poctestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:poctest.poctestRepository.AmazonComOnlineShoppingForElectron">
+            <summary>
+            The AmazonComOnlineShoppingForElectron folder.
+            </summary>
+        </member>
+        <member name="T:poctest.poctestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:poctest.poctestRepositoryFolders.AmazonComOnlineShoppingForElectronAppFolder">
+            <summary>
+            The AmazonComOnlineShoppingForElectronAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:poctest.poctestRepositoryFolders.AmazonComOnlineShoppingForElectronAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AmazonComOnlineShoppingForElectron  folder.
+            </summary>
+        </member>
+        <member name="P:poctest.poctestRepositoryFolders.AmazonComOnlineShoppingForElectronAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:poctest.poctestRepositoryFolders.AmazonComOnlineShoppingForElectronAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:poctest.poctestRepositoryFolders.AmazonComOnlineShoppingForElectronAppFolder.SignIn">
+            <summary>
+            The SignIn item.
+            </summary>
+        </member>
+        <member name="P:poctest.poctestRepositoryFolders.AmazonComOnlineShoppingForElectronAppFolder.SignInInfo">
+            <summary>
+            The SignIn item info.
+            </summary>
+        </member>
+        <member name="P:poctest.poctestRepositoryFolders.AmazonComOnlineShoppingForElectronAppFolder.StartHere">
+            <summary>
+            The StartHere item.
+            </summary>
+        </member>
+        <member name="P:poctest.poctestRepositoryFolders.AmazonComOnlineShoppingForElectronAppFolder.StartHereInfo">
+            <summary>
+            The StartHere item info.
+            </summary>
+        </member>
+        <member name="P:poctest.poctestRepositoryFolders.AmazonComOnlineShoppingForElectronAppFolder.Continue">
+            <summary>
+            The Continue item.
+            </summary>
+        </member>
+        <member name="P:poctest.poctestRepositoryFolders.AmazonComOnlineShoppingForElectronAppFolder.ContinueInfo">
+            <summary>
+            The Continue item info.
+            </summary>
+        </member>
+        <member name="T:poctest.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:poctest.Recording1.repo">
+            <summary>
+            Holds an instance of the poctestRepository repository.
+            </summary>
+        </member>
+        <member name="M:poctest.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:poctest.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:poctest.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:poctest.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:poctest.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:poctest.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

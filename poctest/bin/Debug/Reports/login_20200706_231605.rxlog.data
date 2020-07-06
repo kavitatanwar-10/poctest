@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.25s"
+		durationms="7253"
+		type="root"
+		rid="2070eac7ff327ee0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-U050M5D"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="7/6/2020 11:16:10 PM"
+		timestampiso="2020-07-06T17:46:10"
+		endtime="7/6/2020 11:16:17 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="login">
+		<detail>
+			login
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.044"
+			timeRelativeToTestModuleStartTime="00:07.044"
+			timeWallClock="23:16:17"
+			time="00:07.044"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://www.amazon.com' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\poctest\poctest\login.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
