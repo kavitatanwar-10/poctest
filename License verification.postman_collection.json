@@ -1,0 +1,353 @@
+{
+	"info": {
+		"_postman_id": "b381df8c-bba5-4a84-b51c-0ed0a95eb2ba",
+		"name": "License verification",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://api.discovery-staging.verifiable.com/auth/token/password",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"email\": \"tanwar.kavita@ymail.com\",\r\n\"password\": \"Wz2dZqsJFN5b8cr83em8\",\r\n\"timeToLive\": \"00:30:00\"\r\n}"
+				},
+				"url": {
+					"raw": "https://api.discovery-staging.verifiable.com/auth/token/password",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discovery-staging",
+						"verifiable",
+						"com"
+					],
+					"path": [
+						"auth",
+						"token",
+						"password"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.discovery-staging.verifiable.com/providers",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "XrUA/KzajIuXQ/WydqoBTJOwpG7rbQJ/VhFh5AorzUOqCEL/p/j3dhZ2ZXJpZmlhYmxlLXJlY3J1aXRtZW50ieQ+ietz2AjmFdckqUF9U8YihEHUAWUNQGk1NkUnz5H0+ipeaeWcqA==",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Host",
+						"value": "https://api.discovery.verifiable.com/providers",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstName\": \"John\",\r\n  \"lastName\": \"Doe\",\r\n  \"enableMonitoring\": false\r\n}"
+				},
+				"url": {
+					"raw": "https://api.discovery-staging.verifiable.com/providers",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discovery-staging",
+						"verifiable",
+						"com"
+					],
+					"path": [
+						"providers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.discovery-staging.verifiable.com/licensetypes?",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "NtXCvPnxzs5LFaN8vElPTqco75th4PHGVhFh5AorzUOqCEL/p/j3dhZ2ZXJpZmlhYmxlLXJlY3J1aXRtZW50v5G2H4Fz2Ai40N6NKEaB4pi8Plo4DH3VPQ+303qK6sWzuS1lWxgnWQ==",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.discovery-staging.verifiable.com/licensetypes?",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discovery-staging",
+						"verifiable",
+						"com"
+					],
+					"path": [
+						"licensetypes"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.discovery-staging.verifiable.com/providers/4ddcc575-20da-41ea-9999-b44f7342d16e/licenses",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ShR4TmFyv0vXrfMKFOTASYduAgI28qH+VhFh5AorzUOqCEL/p/j3dhZ2ZXJpZmlhYmxlLXJlY3J1aXRtZW50Y242CfZz2Ajymi+qAClADeymPy+Eo67duEH3NAmYWIeQbI6Ys3tuzA==",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"licenseNumber\": \"8\",\r\n  \"licenseTypeId\": \"0bb65a40-fe39-8422-1cff-6def9544717a\"\r\n}"
+				},
+				"url": {
+					"raw": "https://api.discovery-staging.verifiable.com/providers/4ddcc575-20da-41ea-9999-b44f7342d16e/licenses",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discovery-staging",
+						"verifiable",
+						"com"
+					],
+					"path": [
+						"providers",
+						"4ddcc575-20da-41ea-9999-b44f7342d16e",
+						"licenses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.discovery-staging.verifiable.com/providers/{bf5cbf35-7a2f-4b39-a7ca-d55098660ee2}/licenses",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "oJndrOPs7VNEpiXiMJ+xT6bibvL95l1OVhFh5AorzUOqCEL/p/j3dhZ2ZXJpZmlhYmxlLXJlY3J1aXRtZW501XwEhopz2Ahe+/Ea3K+ptxamsIVxbd/iZSG8DVNYdCPSMYzvg1wrAw==",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.discovery-staging.verifiable.com/providers/{bf5cbf35-7a2f-4b39-a7ca-d55098660ee2}/licenses",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discovery-staging",
+						"verifiable",
+						"com"
+					],
+					"path": [
+						"providers",
+						"{bf5cbf35-7a2f-4b39-a7ca-d55098660ee2}",
+						"licenses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.discovery-staging.verifiable.com/{4ddcc575-20da-41ea-9999-b44f7342d16e}/licenses/{075ffd4b-aa1b-8460-22bb-abcc23cbe083}/verifications/{8d097b83-dbad-4a90-a881-c4421336283f}",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ShR4TmFyv0vXrfMKFOTASYduAgI28qH+VhFh5AorzUOqCEL/p/j3dhZ2ZXJpZmlhYmxlLXJlY3J1aXRtZW50Y242CfZz2Ajymi+qAClADeymPy+Eo67duEH3NAmYWIeQbI6Ys3tuzA==",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"status\": \"Found\"\r\n}"
+				},
+				"url": {
+					"raw": "https://api.discovery-staging.verifiable.com/{4ddcc575-20da-41ea-9999-b44f7342d16e}/licenses/{075ffd4b-aa1b-8460-22bb-abcc23cbe083}/verifications/{8d097b83-dbad-4a90-a881-c4421336283f}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discovery-staging",
+						"verifiable",
+						"com"
+					],
+					"path": [
+						"{4ddcc575-20da-41ea-9999-b44f7342d16e}",
+						"licenses",
+						"{075ffd4b-aa1b-8460-22bb-abcc23cbe083}",
+						"verifications",
+						"{8d097b83-dbad-4a90-a881-c4421336283f}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.discovery-staging.verifiable.com/providers/4ddcc575-20da-41ea-9999-b44f7342d16e/licenses/0896223c-d827-9e93-711c-2af03bc83474/165c4278-7e15-455d-8a7b-4631f0ffd972",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ShR4TmFyv0vXrfMKFOTASYduAgI28qH+VhFh5AorzUOqCEL/p/j3dhZ2ZXJpZmlhYmxlLXJlY3J1aXRtZW50Y242CfZz2Ajymi+qAClADeymPy+Eo67duEH3NAmYWIeQbI6Ys3tuzA==",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.discovery-staging.verifiable.com/providers/4ddcc575-20da-41ea-9999-b44f7342d16e/licenses/0896223c-d827-9e93-711c-2af03bc83474/165c4278-7e15-455d-8a7b-4631f0ffd972",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discovery-staging",
+						"verifiable",
+						"com"
+					],
+					"path": [
+						"providers",
+						"4ddcc575-20da-41ea-9999-b44f7342d16e",
+						"licenses",
+						"0896223c-d827-9e93-711c-2af03bc83474",
+						"165c4278-7e15-455d-8a7b-4631f0ffd972"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.discovery-staging.verifiable.com/providers/4ddcc575-20da-41ea-9999-b44f7342d16e/licenses/0896223c-d827-9e93-711c-2af03bc83474/verify",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ouUYx3q/oXeX7LgbwfmjR5sIwsOjLcbZVhFh5AorzUOqCEL/p/j3dhZ2ZXJpZmlhYmxlLXJlY3J1aXRtZW50Yn2qe/pz2AgdbOsLgpJQ3xOqEVYCsFNmutqQQmW9dlPPB8yFHOEoAQ==",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.discovery-staging.verifiable.com/providers/4ddcc575-20da-41ea-9999-b44f7342d16e/licenses/0896223c-d827-9e93-711c-2af03bc83474/verify",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discovery-staging",
+						"verifiable",
+						"com"
+					],
+					"path": [
+						"providers",
+						"4ddcc575-20da-41ea-9999-b44f7342d16e",
+						"licenses",
+						"0896223c-d827-9e93-711c-2af03bc83474",
+						"verify"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
